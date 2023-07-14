@@ -6,13 +6,38 @@
   </head>
   <body>
     <h1><%= page_title %></h1>
-    <p>Welcome to <%= title %></p>
-    <ul>
-      <% list.forEach( (item) => {
-        <li>
-          <%= item.unittitle %>
-        </li>
-      }) %>
-    </ul>
+    <p><%= page_description %></p>
+    <table style="width: 100%; border-collapse: collapse">
+      <tr style="width: 100%">
+        <td class="table-header">
+          ID#
+        </td>
+        <td class="table-header">
+          Term
+        </td>
+        <td class="table-header">
+          Description
+        </td>
+        <td class="table-header">
+          References
+        </td>
+      </tr>
+      <% terms.forEach( (term) => { %>
+        <tr style="width: 100%">
+          <td class="term-row">
+            <%= term.id %>
+          </td>
+          <td class="term-row">
+            <%= term.name %>
+          </td>
+          <td class="term-row">
+            <%= term.description %>
+          </td>
+          <td class="term-row">
+            <%= term.reference %>
+          </td>
+        </tr>
+      <% }) %>
+    </table>
   </body>
 </html>

@@ -6,3 +6,16 @@ body {
 a {
   color: #00B7FF;
 }
+
+.table-header {
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid;
+}
+
+.term-row {
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid;
+  padding: 5px;
+}
