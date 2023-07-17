@@ -27,15 +27,15 @@ const terms = [
   },
   {
     'id':'5',
-    'name':'OnTrack',
-    'description':'This is an assignment tracking website used by some modules at Deakin University. Students can go to the website to set their desired grade and submit completed tasks',
-    'reference':'Ontrack Website https://ontrack.deakin.edu.au/#/home'
+    'name':'SDLC',
+    'description':'An abbreviation for Software Development Life Cycle. It is a process to develop softwares, starting from the initial designing phase to deployment, and repeat the steps from designing when the company wants to develop additional features for the software.',
+    'reference':'Tutorials Point. Online website: https://www.tutorialspoint.com/sdlc/sdlc_overview.htm'
   },
   {
     'id':'6',
     'name':'express-generator',
     'description':'A framework in NodeJS to quickly setup a skeleton for an application. Run command "express -view ejs" to create the skeleton.',
-    'reference':'SIT722 workshop week1'
+    'reference':'ExpressJS. Getting Started. Online website: https://expressjs.com/en/starter/generator.html'
   },
   {
     'id':'7',
@@ -53,13 +53,13 @@ const terms = [
     'id':'9',
     'name':'Git',
     'description':'A code hosting server. Developers can share their code, and there are also many features to support code versioning.',
-    'reference':'Personal experience'
+    'reference':'Github Docs. Hello World. Online website: https://docs.github.com/en/get-started/quickstart/hello-world'
   },
   {
     'id':'10',
     'name':'Visual Studio Code',
     'description':'An Integrated Development Environment, or IDE, used for writing codes. The tool has a convenient terminal to write commands, such as to interact with Git, and linting to support syntax errors for multiple languages.',
-    'reference':'Personal experience'
+    'reference':'Visual Studio Code Docs. Getting Started. Online website: https://code.visualstudio.com/docs'
   }
 ]
 
