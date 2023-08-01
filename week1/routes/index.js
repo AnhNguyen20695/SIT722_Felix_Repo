@@ -60,6 +60,66 @@ const terms = [
     'name':'Visual Studio Code',
     'description':'An Integrated Development Environment, or IDE, used for writing codes. The tool has a convenient terminal to write commands, such as to interact with Git, and linting to support syntax errors for multiple languages.',
     'reference':'Visual Studio Code Docs. Getting Started. Online website: https://code.visualstudio.com/docs'
+  },
+  {
+    'id':'11',
+    'name':'Agile',
+    'description':'A set of software development frameworks on how developers work to deploy the products. Examples of a framwork that follows Agile methodology is Scrum.',
+    'reference':'Microsoft article (2022). What is Agile?. Online website: https://learn.microsoft.com/en-us/devops/plan/what-is-agile'
+  },
+  {
+    'id':'12',
+    'name':'Service Level Agreement (SLA)',
+    'description':'An agreement between the IT company that delivers the service and customer. The agreement is mainly on confirming the values and availability of the service, such as 99.99% uptime.',
+    'reference':'Atlassian. SLAs: The what, the why, the how. Online website: https://www.atlassian.com/itsm/service-request-management/slas'
+  },
+  {
+    'id':'13',
+    'name':'continuous integration',
+    'description':'This is the practice of continuously integrating new codes into the rest of the application code to be released. This process can be automated and creates a build artifact.',
+    'reference':'Vadapali S. (2018). DevOps: Continuous Delivery, Integration, and Deployment with DevOps. Ch. 2.'
+  },
+  {
+    'id':'14',
+    'name':'continuous delivery',
+    'description':'This is the next step of continuous integration. After automated tests have passed in the test environment, codes and new changes are deployed to the preproduction/staging environment for user acceptance and feedback. The final step to deploy to production is manually triggered based on business decisions.',
+    'reference':'Vadapali S. (2018). DevOps: Continuous Delivery, Integration, and Deployment with DevOps. Ch. 2.'
+  },
+  {
+    'id':'15',
+    'name':'continuous deployment',
+    'description':'Similar to continuous delivery. However, the last step to deploy to production environment is automated.',
+    'reference':'Vadapali S. (2018). DevOps: Continuous Delivery, Integration, and Deployment with DevOps. Ch. 2.'
+  },
+  {
+    'id':'16',
+    'name':'test automation',
+    'description':'Automatically running tests. This can be achieved by writing automation scripts and scheduling to run the those scripts.',
+    'reference':'Vadapali S. (2018). DevOps: Continuous Delivery, Integration, and Deployment with DevOps. Ch. 2.'
+  },
+  {
+    'id':'17',
+    'name':'unit test',
+    'description':'Tests conducted for each individual unit. A unit here can be a function, an API.',
+    'reference':'Coupland M. (2021). DevOps Adoption Strategies: Principles, Processes, Tools, and Trends.'
+  },
+  {
+    'id':'18',
+    'name':'integration test',
+    'description':'Different functions are tested altogether to ensure that they can work together. In this test, codes developed will be merged together and test.',
+    'reference':'Coupland M. (2021). DevOps Adoption Strategies: Principles, Processes, Tools, and Trends.'
+  },
+  {
+    'id':'19',
+    'name':'acceptance test',
+    'description':'This is similar to integration test. However, this mainly focuses on whether the integrated system satisfies the business.',
+    'reference':'Coupland M. (2021). DevOps Adoption Strategies: Principles, Processes, Tools, and Trends.'
+  },
+  {
+    'id':'20',
+    'name':'user interface test',
+    'description':'Tests conducted from a user perspective. For a web server, this can be tests done on the UI, how the web looks and so on.',
+    'reference':'Coupland M. (2021). DevOps Adoption Strategies: Principles, Processes, Tools, and Trends.'
   }
 ]
 
