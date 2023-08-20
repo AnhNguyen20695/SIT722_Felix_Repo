@@ -120,6 +120,66 @@ const terms = [
     'name':'user interface test',
     'description':'Tests conducted from a user perspective. For a web server, this can be tests done on the UI, how the web looks and so on.',
     'reference':'Coupland M. (2021). DevOps Adoption Strategies: Principles, Processes, Tools, and Trends.'
+  },
+  {
+    'id':'21',
+    'name':'Docker',
+    'description':'Docker has a range of products that can be considered a Platform as a Service. It offers services to help developers quickly build, share and run applications anywhere.',
+    'reference':'Docker website. URL: https://www.docker.com/'
+  },
+  {
+    'id':'22',
+    'name':'container',
+    'description':'Most widely known as Docker container. Applications code and environment settings are packaged into container images, and when run become containers.',
+    'reference':'Docker website. URL: https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.'
+  },
+  {
+    'id':'23',
+    'name':'image',
+    'description':'In the case of Docker, similar to how pictures are taken, applications code, environment settings, libraries, tools, dependencies are snapshot into an image. Then this image will be run in a container. The advantage of image is that it allows any environment to run it.',
+    'reference':'Alexander S. (2021). Docker Image. URL: https://www.techtarget.com/searchitoperations/definition/Docker-image#:~:text=A%20Docker%20image%20is%20a,virtual%20machine%20(VM)%20environments.'
+  },
+  {
+    'id':'24',
+    'name':'YAML',
+    'description':"A kind of iterative acronym of YAML Ain't Markup Language. Similar to Json, YAML is a data serialization language, with key-value pairs. YAML is mainly used for specifying configuration settings.",
+    'reference':'YAML website. URL: https://yaml.org/'
+  },
+  {
+    'id':'25',
+    'name':'JSON',
+    'description':'Similar to YAML, JSON is a also a data serialization language to store and transmit data objects. It has key-value pairs.',
+    'reference':'JSon website. URL: https://www.json.org/json-en.html'
+  },
+  {
+    'id':'26',
+    'name':'build',
+    'description':"In Docker's case, this action is to create Docker image. We can build a new image from scratch by including the 'FROM scratch' in the Dockerfile, or create a new image based on another base image by specifying the image name in the 'FROM' line in the Dockerfile.",
+    'reference':'Docker website. URL: https://docs.docker.com/build/building/base-images/'
+  },
+  {
+    'id':'27',
+    'name':'terminal',
+    'description':"An interface that allows developers to interact with the underlying computer system. There are different kinds of commands to run depending on which operating system is running.",
+    'reference':'VSCode website. URL: https://code.visualstudio.com/docs/terminal/basics'
+  },
+  {
+    'id':'28',
+    'name':'scale',
+    'description':"In software development, this is the infrastructure's ability to adapt to increasing traffic. In DevOps or chapter 4 of our course, this might mean our ability to handle multiple containers as more microservices are introduced to our application.",
+    'reference':'Ashley D. (2021). Bootstrapping Microservices with Docker, Kubernetes, and Terraform. Chapter 4.'
+  },
+  {
+    'id':'29',
+    'name':'scope',
+    'description':"In chapter 4 of our book, this means the limit to which Docker Compose will manage. If a container is within Docker Compose's scope, then executing up or down commands will run that container",
+    'reference':'Ashley D. (2021). Bootstrapping Microservices with Docker, Kubernetes, and Terraform. Chapter 4.'
+  },
+  {
+    'id':'30',
+    'name':'virtual machine',
+    'description':'A virtualized environment that simulates running another machine in your computer. It uses up part of the CPU, GPU resources on our physical computer to run, and runs on its own operating system. We can have a Linux VM running on a Windows computer.',
+    'reference':'VMWare website. URL: https://www.vmware.com/au/topics/glossary/content/virtual-machine.html#:~:text=A%20Virtual%20Machine%20(VM)%20is,a%20physical%20%E2%80%9Chost%E2%80%9D%20machine.'
   }
 ]
 
