@@ -180,6 +180,66 @@ const terms = [
     'name':'virtual machine',
     'description':'A virtualized environment that simulates running another machine in your computer. It uses up part of the CPU, GPU resources on our physical computer to run, and runs on its own operating system. We can have a Linux VM running on a Windows computer.',
     'reference':'VMWare website. URL: https://www.vmware.com/au/topics/glossary/content/virtual-machine.html#:~:text=A%20Virtual%20Machine%20(VM)%20is,a%20physical%20%E2%80%9Chost%E2%80%9D%20machine.'
+  },
+  {
+    'id':'31',
+    'name':'Kubernetes',
+    'description':'Also known as K8s. This is an open source engine for deploying and orchestrating containerized applications.',
+    'reference':'Kubernetes documentation. Kubernetes. Retrieved from: https://kubernetes.io/docs/home/'
+  },
+  {
+    'id':'32',
+    'name':'Terraform',
+    'description':'It is an open source infrastructure as code tool developed by Hashicorp. Developers use declarative language to declare and automate creating the applications infrastructure.',
+    'reference':'Terraform main webpage. Overview. Retrieved from: https://www.terraform.io/'
+  },
+  {
+    'id':'33',
+    'name':'proxy',
+    'description':'Acts as a gateway between your computer and the Internet. Traffic flowing to and from your computer will go through this server for an additional layer of functionality, security and privacy.',
+    'reference':'Michael B. (2018). What is a proxy server and how does it work?. Retrieved from: https://www.varonis.com/blog/what-is-a-proxy-server'
+  },
+  {
+    'id':'34',
+    'name':'node',
+    'description':'In a Kubernetes cluster, a node is a worker machine that hosts the containerized applications. It can be a virtual machine or physical machine.',
+    'reference':'Kubernetes documentation. Viewing pods and nodes. Retrieved from: https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/#:~:text=A%20Node%20is%20a%20worker,the%20Nodes%20in%20the%20cluster.'
+  },
+  {
+    'id':'35',
+    'name':'pod',
+    'description':'In a Kubernetes cluster, a pod is the atomic unit representing processing power of the cluster. A node can host many pods, in which many containerized applications can live.',
+    'reference':'Kubernetes documentation. Viewing pods and nodes. Retrieved from: https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/#:~:text=A%20Node%20is%20a%20worker,the%20Nodes%20in%20the%20cluster.'
+  },
+  {
+    'id':'36',
+    'name':'orchestration',
+    'description':'Microservices can be manually containerized and deployed in cluster. The process can be lengthy and costly as we have more applications. Orchestration can solve the issue by having developers write declarative codes to automate the deployment process.',
+    'reference':'Mulesoft documentation. What is application orchestration?. Retrieved from: https://www.mulesoft.com/resources/esb/what-application-orchestration#:~:text=Application%20or%20service%20orchestration%20is,the%20path%20of%20least%20resistance.'
+  },
+  {
+    'id':'37',
+    'name':'Infrastructure as code',
+    'description':'While working to deploy an application, developers will have to make sure the infrastructure aligns and is able to support the program. For example, developers will have to take note of used library versions, which application depends on which application and so on. Deploying an application on another computer means that the developer will have to do the whole setup from the start. Infrastructure as code helps lessen the effort by declaring the infrasture creation in code, which is executable.',
+    'reference':'Microsoft documentation. What is infrastructure as code (IaC)?. Retrieved from: https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code'
+  },
+  {
+    'id':'38',
+    'name':'Terraform providers',
+    'description':'Similar to how Python or NodeJS have installable libraries, Terraform also has providers to interact with cloud providers, other APIs and so on. In this week, we learnt about azurerm and tls providers.',
+    'reference':'Terraform documentation. Providers. https://developer.hashicorp.com/terraform/language/providers'
+  },
+  {
+    'id':'39',
+    'name':'resource group',
+    'description':'More specifically Azure resource group. This is a group that manages resources of an Azure subscription. Instead of deleting or updating resources individually, sometimes it is more efficient and meaningful to process the resources as a group.',
+    'reference':'Microsoft documentation. Manage Azure resource groups by using the Azure portal. Retrieved from: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal'
+  },
+  {
+    'id':'40',
+    'name':'cluster',
+    'description':'We are referring to Kubernetes cluster in this case. This is a set of nodes that run containerized applications. Running applications in a cluster allow it to be easily scalable, manageable, transportable.',
+    'reference':'VMWare documentation. What is a Kubernetes cluster?. Retrieved from: https://www.vmware.com/au/topics/glossary/content/kubernetes-cluster.html#:~:text=What%20is%20a%20Kubernetes%20cluster,and%20flexible%20than%20virtual%20machines.'
   }
 ]
 
