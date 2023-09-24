@@ -240,6 +240,66 @@ const terms = [
     'name':'cluster',
     'description':'We are referring to Kubernetes cluster in this case. This is a set of nodes that run containerized applications. Running applications in a cluster allow it to be easily scalable, manageable, transportable.',
     'reference':'VMWare documentation. What is a Kubernetes cluster?. Retrieved from: https://www.vmware.com/au/topics/glossary/content/kubernetes-cluster.html#:~:text=What%20is%20a%20Kubernetes%20cluster,and%20flexible%20than%20virtual%20machines.'
+  },
+  {
+    'id':'41',
+    'name':'Bitbucket',
+    'description':'A software or tool developed by the Atlassian company to manage code similar to Github. What makes Bitbucket different from Github is its integration with the company Jira (for better team collaboration and workflow tracking) and CI/CD with pipeline.',
+    'reference':'Bitbucket documents. Code & CI/CD, built for teams using Jira. Retrieved from: https://bitbucket.org/product/'
+  },
+  {
+    'id':'42',
+    'name':'Bitbucket pipeline',
+    'description':'A pipeline on Bitbucket used to continuously listen to code changes on a specified branch. The configuration such as what commands to run when a new change has been detected can be configured in a YAML file.',
+    'reference':'Bitbucket documents. Build powerful, automated workflows. Retrieved from: https://bitbucket.org/product/features/pipelines'
+  },
+  {
+    'id':'43',
+    'name':'Atlassian',
+    'description':'Software development company that focuses on delivering team collaboration tools. Most notable products are Confluence, Jira, and also Bitbucket that we used for this course.',
+    'reference':'Atlassian website. Retrieved from: https://www.atlassian.com/software/jira'
+  },
+  {
+    'id':'44',
+    'name':'Load Balancer',
+    'description':'In the context of our project, the load balancer is Azure load balancer. Any other cloud providers such as AWS or GCP also offer their own load balacing services. As the name suggests, the functions of a load balancer is to balance the incoming and outgoing traffic of the underlying microservices. When a microservice is attached to a load balancer, we would not want to call the microservice directly, but rather call the load balancer and it will do its job of redirecting traffic to the expected destination.',
+    'reference':'Amazon Web Service documents. What is load balancing?. Retrieved from: https://aws.amazon.com/what-is/load-balancing/#:~:text=Load%20balancers%20increase%20the%20fault,or%20upgrades%20without%20application%20downtime'
+  },
+  {
+    'id':'45',
+    'name':'Git local repository',
+    'description':'The folder in personal computer that stores the code. When we refer to Git local repository, we are referring to a folder that already had git init. Since the codes in local repository are stored in personal computer, they are accessible from personal computer only.',
+    'reference':'Ebo J. (2023). Git: Working with Local Repository vs Working with Remote Repository. Retrieved from: https://levelup.gitconnected.com/git-working-with-local-repository-vs-working-with-remote-repository-b2ec00df9a2e'
+  },
+  {
+    'id':'46',
+    'name':'Git remote repository',
+    'description':'The online place that the code is stored. We can go to and see Git remote repository on the website github.com, or in the case of Bitbucket it is bitbucket.org. This repository is the online repository and is available, accessible and clonable by anyone given access. As a comparison, local repository is only accessible on personal computer.',
+    'reference':'Github documents. About remote repositories. Retrieved from: https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories'
+  },
+  {
+    'id':'47',
+    'name':'RabbitMQ',
+    'description':'A software as a service tool to use as a message broker. Microservices can directly call each other through HTTP requests instead of using RabbitMQ, but RabbitMQ offers message queuing for better flow control.',
+    'reference':'CloudAMQP documents (2019). Part 1: RabbitMQ for beginners - What is RabbitMQ?. Retrieved from: https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html'
+  },
+  {
+    'id':'48',
+    'name':'DNS',
+    'description':'Short for Domain Name System. When we go to a site, we usually do not type in the IP address of the host, but rather type in the server name in text. This is because it is much harder for us to memorize digits. When we go to a site through a browser like Chrome, the DNS server will resolve our request and give back to us the IP address of the server, before the browser send our request for resource to the server IP address.',
+    'reference':'Cloudfare documents. What is DNS? | How DNS works. Retrieved from: https://www.cloudflare.com/learning/dns/what-is-dns/'
+  },
+  {
+    'id':'49',
+    'name':'MongoDB',
+    'description':'A NoSQL database used for application to quickly store and retrieve data. Being a NoSQL database, it stores JSON like data.',
+    'reference':'Alexander S. (2023). MongoDB. Retrieved from: https://www.techtarget.com/searchdatamanagement/definition/MongoDB'
+  },
+  {
+    'id':'50',
+    'name':'kubectl',
+    'description':'A command line tool to interact with Kubernetes cluster and services. It also offers a dashboard to visualize and monitor the performance of deployed containers within a cluster.',
+    'reference':'Kubernetes documents. Command line tool (kubectl) Retrieved from: https://kubernetes.io/docs/reference/kubectl/'
   }
 ]
 
